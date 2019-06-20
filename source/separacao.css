@@ -1,0 +1,65 @@
+body{
+    font-family:Verdana; 
+    padding:0;
+    margin:0;           
+}
+
+a:visited, a:link{
+    color:#000;
+    text-decoration:none;
+}
+
+table.NavTable{
+    width:100%;
+    border:0px;
+}
+
+
+table.NavTable.primary td{
+    padding-left: 20px; 
+    font-size:13px;
+}
+
+table.NavTable.primary .btnLarge{
+    background:#003300;
+    color:#ffffff;
+    border:0px;
+    cursor:pointer;
+    margin-left:1px;
+    font-size: 10px;
+    width: 50px;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+}
+
+tr.NavHeader{
+    background:#003300;
+    color:#fff;
+    font-size:20px;
+    text-align:center;    
+}
+
+tr.NavDesc {
+    background:#eee;
+}
+
+tr.NavHeader td{
+    text-align:center;     
+}
+span{
+    color: red;
+}
+table.NavTable td{
+    border-bottom:1px solid #ccc;   
+    padding-top:5px; 
+    padding-bottom:5px; 
+    padding-left:5%;
+    padding-right:5%;
+}

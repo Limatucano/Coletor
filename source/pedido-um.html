@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="pedido.css" type="text/css">
+    <title>Pedido 11111</title>
+	<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"></script>
+	<script>
+		function findGetParameter(parameterName) {
+			var result = null,
+				tmp = [];
+			location.search
+				.substr(1)
+				.split("&")
+				.forEach(function (item) {
+				  tmp = item.split("=");
+				  if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+				});
+			return result;
+		}
+	</script>
+</head>
+<body>
+    <table class="NavTable primary">
+        <thead>
+        <tr class="NavHeader">
+            <td colspan="3">Itens</td>
+        </tr>
+        <tr>
+            <td><strong>Descrição</strong></td>
+            <td><strong>Lote</strong></td>
+        </tr>
+    </thead>
+        <tr>
+           <td id="Pedido1">SAB ODOR DE ROSAS 90G CX144</td>
+           <td id="Lote1">Z5456</td> 
+        </tr>
+        <tr>
+            <td colspan="3"><a href="item-pedido.html?id=0&item=17896412935523&descricao=SAB ODOR DE ROSAS 90G CX144&lote=Z5456&local=G0701&quantidade=10" class="btnLarge">Confirmar</a></td>
+        </tr>
+        <tr>
+            <td colspan="3"><a href="separacao.html">0. Voltar</a></td>
+        </tr>
+
+
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

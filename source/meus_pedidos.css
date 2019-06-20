@@ -1,0 +1,291 @@
+body
+{
+    font-family:Verdana; 
+    padding:0;
+    margin:0;           
+}
+a:link, a:hover, a:visited
+{
+    color:#333333;
+    text-decoration:none;
+}
+
+form {
+    display: block;
+    margin: 0em;
+	padding: 0em;
+}
+
+table.NavTable
+{
+    width:100%;
+    border:0px;
+}
+
+table.NavTable td
+{
+    border-bottom:1px solid #cccccc;
+    text-align:left;    
+    padding-top:5px; 
+    padding-bottom:5px; 
+    padding-left:5%;
+    padding-right:5%;
+}
+
+table.NavTable.medium td
+{
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:2px; 
+    padding-bottom:2px; 
+    font-size:13px;
+}
+
+table.NavTable.small td
+{
+    
+    text-align:left;    
+    padding-top:5px; 
+    padding-bottom:5px; 
+    padding-left:1%;
+    padding-right:1%;
+    font-size:12px;
+}
+
+table.NavTable.small tr
+{
+    border-bottom:1px solid #cccccc;
+}
+
+table.NavTable.NoBorder td
+{
+    border-bottom:0px solid #cccccc;
+}
+
+table.NavTable.Center td
+{
+    
+}
+
+table.NavTable select
+{
+    height:25px;
+}
+
+table.NavTable input
+{
+    height:25px;
+    width:80%;
+}
+
+table.NavTable input.checkbox
+{
+    height:25px;
+    width:9%;
+    vertical-align: middle;
+}
+
+table.NavTable input.small
+{
+    height:25px;
+    width:50%;
+}
+
+table.NavTable input.medium
+{
+    height:25px;
+    width:65%;
+}
+
+table.NavTable .btn
+{
+    background:#003300;
+    color:#ffffff;
+    border:0px;
+    width:80%;
+    height:35px;
+    cursor:pointer;
+    margin-left:1px;
+    font-size:17px;
+}
+
+table.NavTable .btnLarge
+{
+    background:#003300;
+    color:#ffffff;
+    border:0px;
+    width:80%;
+    height:75px;
+    cursor:pointer;
+    margin-left:1px;
+    font-size:17px;
+    min-width: 30px;
+}
+
+table.NavTable .btnLargeOk
+{
+    background:#003300;
+    color:#ffffff;
+    border:0px;
+    width:80%;
+    height:75px;
+    cursor:pointer;
+    margin-left:1px;
+    font-size:17px;
+    width: 30px;
+}
+
+table.NavTable.medium .btn
+{
+    font-size: 10px;
+    height: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+table.NavTable.medium .btnLarge
+{
+    background:#003300;
+    color:#ffffff;
+    border:0px;
+    cursor:pointer;
+    margin-left:1px;
+    font-size: 10px;
+    height: 30px;
+	
+    margin-top: 0px;
+    margin-bottom: 0px;
+	
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+table.NavTable.medium .btnLargeOk
+{
+    background:#003300;
+    color:#ffffff;
+    border:0px;
+    cursor:pointer;
+    margin-left:1px;
+    font-size: 10px;
+    height: 30px;
+	
+    margin-top: 0px;
+    margin-bottom: 0px;
+	
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 30px;
+}
+
+tr.NavHeader
+{
+    background:#003300;
+    color:#ffffff;
+    font-size:20px;
+    text-align:center;    
+}
+
+tr.NavFeatured 
+{
+    background:#f7f7f7;
+}
+
+tr.NavHeader td
+{
+    text-align:center;     
+}
+
+table.NavTable td.barra
+{
+    text-align:center;     
+    padding-left:0px;
+    padding-right:0px;
+}
+
+tr.msg_alertas 
+{
+    background:#ffff66;
+    text-align:center;
+    height:10px;
+}
+
+tr.msg_alertas td 
+{
+    background: #ffff66;
+    text-align: center;
+    height: 10px;
+    padding: 4px;
+    font-size: 14px;
+}
+
+tr.msg_alertas td a, tr.msg_alertas td a:link, tr.msg_alertas td a:hover
+{
+    text-decoration:underline;
+}
+
+.botao, .btn
+{
+    width:90%;
+    height:25px;
+    background:#003300;
+    color:#ffffff !important;
+    text-align:center;
+    cursor:pointer;
+    display:block;
+    padding-top:5px;
+    padding-bottom:3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border:0px;
+}
+
+.bt-claro
+{
+    background:#efefef;
+    border:1px solid #333;
+    color:#000 !important;
+}
+
+.borda
+{
+    border-bottom:1px solid #cccccc;
+}
+
+.cabecalho
+{
+     background: #003300;
+     color: #ffffff !important;
+}
+
+.ajustaTamanho
+{
+    width: 80%;
+}
+
+.realocar img
+{
+    height: 30px;
+}
+
+.divRealocar
+{
+    display:block;
+    margin-top: -40px;
+    text-align: right; 
+}
+
+#Link_Anterior
+{
+	float:left;
+}
+
+#Link_Posterior
+{
+	float:right;
+}

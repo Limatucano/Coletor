@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="item-pedido.css" type="text/css">
+    <title>Pedido 11111</title>
+    <script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"></script>
+</head>
+<body>
+        <table class="NavTable primary">
+                <thead>
+                <tr class="NavHeader">
+                    <td colspan="3">Itens</td>
+                </tr>
+        </thead>
+        <tr>
+            <td class="first">Filial: 0030</td>
+        </tr>
+        <tr>
+            <td>Item: <span class="item"></span></td>
+        </tr>
+        <tr>
+            <td >Descrição: <span class="descricao"></span></td>
+        </tr>
+        <tr>
+            <td>UM: CX</td>
+        </tr>
+        <tr>
+            <td>Lote: <span class="lote"></span></td>
+        </tr>
+        <tr>
+            <td >Local: <span class="local"></span></td>
+        </tr>
+        <tr>
+            <td >Qtd: <span class="qtd"></span></td>
+        </tr>
+        <tr class="alert" style="visibility: hidden">
+            <td class="last"><span><strong>ATENÇÃO: Esse item precisa ser retrabalhado</strong></span></td>
+        </tr>
+
+        <tr>
+            <td class="desc">Você confirma essa contagem?</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="btn" id="teste"><a href="#"  onclick="verification()" class="btnLarge">Confirmar</a></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="back"><a href="pedido-um.html" class="inback">0. Voltar</a></td>
+        </tr>
+
+
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
